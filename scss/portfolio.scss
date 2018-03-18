@@ -1,0 +1,65 @@
+@import '_colors.scss';
+@import '_fontsizes';
+
+body {
+    background-color: map-get($colors, 'lh-orange')
+}
+
+#introduction {
+    background: linear-gradient(transparent, map-get($colors, 'orange'));
+    min-height: calc(100vh - 60px);
+}
+
+#projects {
+    background-color: map-get($colors, 'white');
+}
+
+#about {
+    background: linear-gradient(map-get($colors, 'orange'), map-get($colors, 'lh-orange'));
+    min-height: 100vh;
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    min-height: 20vh;
+}
+
+.navbar {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    min-height: 60px;
+    z-index: 1;
+}
+
+.fixed-top + section {
+    margin-top: 60px;
+}
+
+.list-icons {
+    font-size: 2rem;
+    margin-bottom: 0rem;
+}
+
+.intro-portrait-img {
+    width: 180px;
+    border-radius: 50%;
+    border: solid .6rem map-get($colors, 'lh-orange-gray');
+}
+
+section > .container {
+    padding-top: 60px;
+    padding-bottom: 5rem;
+}
+
+.nounder:HOVER {
+    text-decoration: none;
+}
+
+.list-nopad {
+    text-indent: -1.5em;
+    padding-left: 1.5em;
+    list-style-position: inside;
+}
+
+.list-square {
+    list-style-type: square;
+}
