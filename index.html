@@ -49,12 +49,17 @@
           <br/>
           <span class="cl-orange-gray">Budapest, HU</span>
           <br/>
-          <a class="cl-white" href="mailto:vekonypeter94@gmail.com" title="Contact me via e-mail">
-            <i class="fa fa-envelope pr-1 cl-yellow"></i>
-            <i>
-              <u>vekonypeter94@gmail.com</u>
-            </i>
-          </a>
+          <div class="mt-0 fs-2">
+            <a class="cl-gray-800 nounder" href="mailto:vekonypeter94@gmail.com" title="Send me e-mail to vekonypeter94@gmail.com" onrigh>
+              <i class="fa fa-envelope-square"></i>
+            </a>
+            <a class="cl-gray-800 nounder" href="https://facebook.com/vekonydoktor" target="_blank" title="Find me on Facebook">
+              <i class="fa fa-facebook-square"></i>
+            </a>
+            <a class="cl-gray-800 nounder" href="https://linkedin.com/in/vekonypeter" target="_blank" title="Find me on LinkedIn">
+              <i class="fa fa-linkedin-square"></i>
+            </a>
+          </div>
         </div>
         <div class="col-md-8 cl-white text-left">
           <span class="h1 text-left cl-orange-gray">Portfolio</span>
@@ -469,8 +474,8 @@
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
     crossorigin="anonymous"></script>
 
+  <!-- Rename jQuery UI tooltip and button to resolve conflicts with Bootstrap -->
   <script>
-    /* Rename jQuery UI tooltip and button to resolve conflicts with Bootstrap */
     $.widget.bridge('uitooltip', $.ui.tooltip);
     $.widget.bridge('uibutton', $.ui.button);
   </script>

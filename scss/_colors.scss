@@ -33,7 +33,10 @@ $colors: (
 
 @each $name, $color in $colors {
     .cl-#{$name} {
-        color: #{$color};
+        color: #{$color}; 
+    }
+    .cl-hover-#{$name}:HOVER {
+        color: #{$color}; 
     } 
     .bg-#{$name} {  
         background-color: #{$color};

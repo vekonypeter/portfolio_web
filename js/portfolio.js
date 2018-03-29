@@ -34,7 +34,9 @@ $(function () {
 
     // Activate tooltips
     $("[title]").each((idx, elem) => {
-        $(elem).attr("data-placement", "bottom").tooltip();
+        $(elem).tooltip({
+            placement : "bottom"
+        });
     });
 
     // Smooth scrolling at navigation using jQuery easing
