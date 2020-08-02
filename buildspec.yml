@@ -4,6 +4,10 @@ phases:
   install:
     runtime-versions:
       nodejs: 10
+  pre_build:
+    commands:
+      - echo Install dependencies
+      - npm i
   build:
     commands:
       - echo Build started on `date`
