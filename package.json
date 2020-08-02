@@ -11,6 +11,9 @@
     "theme",
     "template"
   ],
+  "scripts": {
+    "build": "node_modules/.bin/gulp"
+  },
   "homepage": "https://startbootstrap.com/template-overviews/1-col-portfolio",
   "bugs": {
     "url": "https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/issues",
