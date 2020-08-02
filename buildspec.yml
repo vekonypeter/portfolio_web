@@ -19,5 +19,4 @@ artifacts:
   files:
     - '**/*'
   base-directory: 'dist'
-  discard-paths: yes
   name: portfolio-web_$(date +%Y-%m-%dT%T.%N_%Z)
